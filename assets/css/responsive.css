@@ -1,0 +1,27 @@
+@media (min-width: 482px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px){
+  .sobre-mim {
+    align-items: center;
+  }
+
+  .sobre-mim-texto {
+    margin: 0.5rem 10rem;
+  }
+
+  .formacao {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .projetos ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
