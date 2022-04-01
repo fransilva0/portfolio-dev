@@ -9,8 +9,6 @@
   --cor-1: #343838;
   --cor-2: #005f6b;
   --cor-3: #008c9e;
-  --cor-4: #00b4cc;
-  --cor-5: #00dffc;
   --gradiente: linear-gradient(90deg, #00dffc 0%, #853a71 100%);
   --white: #f4f4f4;
   --fonte: 'Segoe UI', Times, serif;
@@ -19,6 +17,7 @@
 body {
   font-family: var(--fonte);
   background-color: var(--white);
+  color: var(--cor-1);
 }
 
 .cabecalho, .rodape {
@@ -56,9 +55,10 @@ body {
 
 .titulo-secao {
   text-align: center;
+  color: var(--cor-3)
 }
 
-.formacao, .skills {
+.formacao, .skills, .contato {
   padding: 2rem;
 }
 
@@ -87,8 +87,30 @@ body {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
+.card a, .email-button {
+  color: var(--white);
+  background: var(--gradiente);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 .skills {
   text-align: center;
+}
+
+.email-button {
+  border-radius: 1rem;
+  padding: 0.5rem 4rem;
+}
+
+.icone {
+  font-size: 2rem;
+  padding-right: 2rem;
+  color: var(--cor-2);
+}
+
+.icone:hover {
+  color: var(--cor-3)
 }
 
 .rodape {
