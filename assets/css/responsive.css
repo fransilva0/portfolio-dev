@@ -15,7 +15,7 @@
     margin: 0.5rem 10rem;
   }
 
-  .formacao {
+  .formacao, .skills {
     display: flex;
     justify-content: space-around;
   }
