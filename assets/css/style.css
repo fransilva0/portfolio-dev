@@ -6,12 +6,24 @@
 }
 
 :root {
-  --cor-1: ;
-  --cor-1: ;
-  --cor-1: ;
-  --cor-1: ;
-  --cor-1: ;
-  --fonte: ;
+  --cor-1: #343838;
+  --cor-2: #005f6b;
+  --cor-3: #008c9e;
+  --cor-4: #00b4cc;
+  --cor-5: #00dffc;
+  --gradiente: linear-gradient(90deg, #00dffc 0%, #853a71 100%);
+  --white: #f4f4f4;
+  --fonte: 'Segoe UI', Times, serif;
+}
+
+body {
+  font-family: var(--fonte);
+  background-color: var(--white);
+}
+
+.cabecalho, .rodape {
+  background: var(--gradiente);
+  color: var(--white);
 }
 
 .bloco-perfil {
@@ -73,4 +85,9 @@
   flex-direction: column;
   width: 20rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.rodape {
+  text-align: center;
+  padding: 1rem;
 }
