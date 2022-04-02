@@ -101,6 +101,10 @@ body {
   text-align: center;
 }
 
+.titulo-skill {
+  color: var(--cor-3);
+}
+
 .email-button {
   border-radius: 1rem;
   padding: 0.5rem 4rem;
