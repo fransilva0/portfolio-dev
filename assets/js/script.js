@@ -15,3 +15,9 @@ scrollReveal.reveal(
 scrollReveal.reveal(` .titulo-secao, .contato .email-button, .rodape p `, {
   origin: 'left'
 })
+
+// mudar a página para Claro/Escuro
+
+function modoClaroEscuro() {
+  document.body.classList.toggle('temaEscuro')
+}

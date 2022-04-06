@@ -20,6 +20,25 @@ body {
   color: var(--cor-1);
 }
 
+.temaEscuro {
+  background-color: var(--cor-1);
+  color: var(--white);
+}
+
+.modo-claroEscuro {
+  font-size: 2rem;
+  padding-right: 2rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .cabecalho, .rodape {
   background: var(--gradiente);
   color: var(--white);
