@@ -7,11 +7,24 @@
 
 :root {
   --cor-1: #343838;
-  --cor-2: #005f6b;
-  --cor-3: #008c9e;
+  --cor-2: #853a71;
+  --cor-3: #ab6497;
   --gradiente: linear-gradient(90deg, #00dffc 0%, #853a71 100%);
   --white: #f4f4f4;
   --fonte: 'Segoe UI', Times, serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--cor-1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--cor-3);
+  border-radius: 10px;
 }
 
 body {
@@ -69,13 +82,20 @@ body {
 }
 
 .sobre-mim-texto h2 {
-  margin-bottom: 2rem;
-  color: var(--cor-3);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--cor-3);
 }
 
 .titulo-secao {
   text-align: center;
-  color: var(--cor-3)
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.titulo-secao span {
+  color: var(--cor-2);
+  font-size: 4rem;
 }
 
 .formacao, .skills, .contato {
@@ -87,6 +107,8 @@ body {
   border-radius: 1rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   margin: 1rem;
+  color: var(--cor-1);
+  background-color: var(--white);
 }
 
 .projetos {
@@ -106,7 +128,8 @@ body {
   flex-direction: column;
   width: 20rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
+  border-radius: 1.5rem;
+  background: var(--white);
 }
 
 .card a, .email-button {
@@ -116,13 +139,21 @@ body {
   margin-top: 0.5rem;
 }
 
+.card p {
+  color: var(--cor-1);
+}
+
 .skills {
   text-align: center;
 }
 
 .titulo-skill {
   color: var(--cor-3);
+  border-bottom: 1px solid var(--cor-3);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
+
 
 .form label {
   display: block;
@@ -136,7 +167,7 @@ body {
   width: 100%;
   padding: 15px 0 15px 8px;
   border: none;
-  border-bottom: 2px solid var(--cor-3);
+  border-bottom: 2px solid var(--cor-2);
   background: transparent;
   outline: none;
 }
@@ -147,7 +178,7 @@ body {
   height: 100px;
   padding: 8px;
   border: none;
-  border-bottom: 2px solid var(--cor-3);
+  border-bottom: 2px solid var(--cor-2);
   background: transparent;
   outline: none;
   resize: none;
@@ -165,13 +196,13 @@ body {
 }
 
 .icone {
-  font-size: 2rem;
+  font-size: 4rem;
   padding-right: 2rem;
   color: var(--cor-2);
 }
 
 .icone:hover {
-  color: var(--cor-3)
+  color: var(--cor-3);
 }
 
 .redes-sociais {
