@@ -25,4 +25,12 @@
     justify-content: space-around;
   }
 
+  .contato {
+    align-items: center;
+  }
+
+  .form {
+    width: 30rem;
+  }
+
 }

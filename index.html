@@ -85,12 +85,8 @@
           <li class="card">
             <img src="./assets/img/projeto-1.png" alt="cor vermelha" />
             <p>Front-End</p>
-            <p>Calculadora de IMC | 2022</p>
-            <a
-              href="https://github.com/fransilva0/Calculadora-de-IMC"
-              target="_blank"
-              >Github</a
-            >
+            <p>La Pizza | 2022</p>
+            <a href="#" target="_blank">Github</a>
           </li>
           <li class="card">
             <img src="./assets/img/image-not-found.jpg" alt="cor vermelha" />
@@ -172,12 +168,48 @@
       </section>
       <h2 class="titulo-secao">ENTRE EM CONTATO</h2>
       <section class="contato">
-        <a
+        <form
+          action="https://formsubmit.co/sfrancileudo1@gmail.com"
+          method="POST"
+          class="form"
+        >
+          <label>
+            <input
+              type="text"
+              name="Nome"
+              placeholder="Seu nome"
+              required
+              autocomplete
+            />
+          </label>
+
+          <label>
+            <input
+              type="email"
+              name="Email"
+              placeholder="seuemail@email.com"
+              required
+              autocomplete=""
+            />
+          </label>
+
+          <label>
+            <textarea
+              name="Mensagem"
+              placeholder="Deixe sua mensagem"
+            ></textarea>
+          </label>
+
+          <input type="hidden" name="_captcha" value="false" />
+
+          <button type="submit" class="email-button">Enviar</button>
+        </form>
+        <!--<a
           class="email-button"
           href="mailto:sfrancileudo1@gmail.com"
           target="_blank"
           >sfrancileudo1@gmail.com</a
-        >
+        > -->
         <br />
         <br />
         <div class="redes-sociais">
