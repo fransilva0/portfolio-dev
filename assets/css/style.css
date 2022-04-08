@@ -27,6 +27,8 @@
   border-radius: 10px;
 }
 
+html {scroll-behavior: smooth;}
+
 body {
   font-family: var(--fonte);
   background-color: var(--white);
@@ -87,6 +89,23 @@ body {
   border-bottom: 1px solid var(--cor-3);
 }
 
+.botoes-principais {
+  text-align: center;
+}
+
+.botoes-principais a {
+  margin: 2rem;
+  padding: 1rem 2rem;
+  border: 2px solid var(--cor-3);
+  border-radius: 0.5rem;
+  color: var(--cor-3);
+}
+
+.botoes-principais a:hover {
+  color: var(--white);
+  background-color: var(--cor-3);
+}
+
 .titulo-secao {
   text-align: center;
   padding: 1rem;
@@ -104,7 +123,6 @@ body {
 
 .formacao ul li, .skills ul li {
   padding: 2rem;
-  border-radius: 1rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   margin: 1rem;
   color: var(--cor-1);
@@ -117,7 +135,6 @@ body {
 
 .card img {
   margin-bottom: 1rem;
-  border-radius: 1rem 1rem 0 0;
 }
 
 .card {
@@ -126,9 +143,8 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  width: 20rem;
+  width: 21rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 1.5rem;
   background: var(--white);
 }
 
@@ -186,7 +202,7 @@ body {
 
 
 .email-button {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   padding: 0.5rem 4rem;
   border: none;
   cursor: pointer;
