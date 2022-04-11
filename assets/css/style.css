@@ -183,19 +183,19 @@ body {
   width: 100%;
   padding: 15px 0 15px 8px;
   border: none;
-  border-bottom: 2px solid var(--cor-2);
-  background: transparent;
+  background-color: #d1d2d2;
+  border-radius: 1rem;
   outline: none;
 }
 
 .form textarea {
   display: block;
-  width: 100%;
+  width: 99%;
   height: 100px;
   padding: 8px;
   border: none;
-  border-bottom: 2px solid var(--cor-2);
-  background: transparent;
+  background-color: #d1d2d2;
+  border-radius: 1rem;
   outline: none;
   resize: none;
 }
