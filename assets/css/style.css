@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -11,8 +13,10 @@
   --cor-3: #ab6497;
   --gradiente: linear-gradient(90deg, #00dffc 0%, #853a71 100%);
   --white: #f4f4f4;
-  --fonte: 'Segoe UI', Times, serif;
+  --fonte: 'Montserrat', sans-serif, arial;
 }
+
+/* BARRA DE SCROLAGEM */
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -27,6 +31,8 @@
   border-radius: 10px;
 }
 
+/* HTML E BORY */
+
 html {scroll-behavior: smooth;}
 
 body {
@@ -35,18 +41,7 @@ body {
   color: var(--cor-1);
 }
 
-.temaEscuro {
-  background-color: var(--cor-1);
-  color: var(--white);
-}
-
-.modo-claroEscuro {
-  font-size: 2rem;
-  padding-right: 2rem;
-  color: var(--white);
-  cursor: pointer;
-}
-
+/* CABEÇALHO DA PÁGINA */
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -74,6 +69,7 @@ body {
   margin: 0.5rem;
 }
 
+/* SEÇÃO SOBRE MIM */
 .sobre-mim {
   padding: 2rem;
   text-align: justify;
@@ -106,6 +102,7 @@ body {
   background-color: var(--cor-3);
 }
 
+/* ESTILIZAÇÃO DOS TÍTULOS DE TODAS AS SEÇÕES DA PÁGINA */
 .titulo-secao {
   text-align: center;
   padding: 1rem;
@@ -117,6 +114,7 @@ body {
   font-size: 4rem;
 }
 
+/* SEÇÃO DE FORMAÇÃO EDUCACIONAL */
 .formacao, .skills, .contato {
   padding: 2rem;
 }
@@ -129,6 +127,7 @@ body {
   background-color: var(--white);
 }
 
+/* SEÇÃO DE PROJETOS */
 .projetos {
   margin: 1rem;
 }
@@ -159,6 +158,7 @@ body {
   color: var(--cor-1);
 }
 
+/* SEÇÃO DE SKILLS */
 .skills {
   text-align: center;
 }
@@ -170,7 +170,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-
+/* SEÇÃO DE CONTATO | ESTILIZAÇÃO DO FORM E ICONES */
 .form label {
   display: block;
   margin-bottom: 1rem;
@@ -225,7 +225,21 @@ body {
   text-align: center;
 }
 
+/* FOOTER DA PÁGINA */
 .rodape {
   text-align: center;
   padding: 1rem;
+}
+
+/* BOTÃO DE MUDAR DE TEMA E CLASS DO TEMA ESCURO */
+.modo-claroEscuro {
+  font-size: 2rem;
+  padding-right: 2rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.temaEscuro {
+  background-color: var(--cor-1);
+  color: var(--white);
 }

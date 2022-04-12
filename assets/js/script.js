@@ -1,3 +1,4 @@
+// SCROLLREVEAL DA PÁGINA
 const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
@@ -6,7 +7,7 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(
-  `.cabecalho .bloco-perfil, .sobre-mim .sobre-mim-texto, .titulo-secao, .formacao ul li, .projetos .card, .skills ul li, .contato .redes-sociais, .form `,
+  `.cabecalho .bloco-perfil, .sobre-mim .sobre-mim-texto, .botoes-principais, .titulo-secao, .formacao ul li, .projetos .card, .skills ul li, .contato .redes-sociais, .form `,
   {
     interval: 100
   }
