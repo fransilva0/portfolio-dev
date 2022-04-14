@@ -85,11 +85,11 @@ body {
   border-bottom: 1px solid var(--cor-3);
 }
 
-.botoes-principais {
+.element-center {
   text-align: center;
 }
 
-.botoes-principais a {
+.botao-principal {
   margin: 2rem;
   padding: 1rem 2rem;
   border: 2px solid var(--cor-3);
@@ -97,7 +97,7 @@ body {
   color: var(--cor-3);
 }
 
-.botoes-principais a:hover {
+.botao-principal:hover {
   color: var(--white);
   background-color: var(--cor-3);
 }

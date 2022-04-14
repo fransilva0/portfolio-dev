@@ -15,14 +15,14 @@
     margin: 0.5rem 10rem;
   }
 
-  .formacao, .skills, .contato {
+  .formacao, .skills, .contato, .projetos ul {
     display: flex;
     justify-content: space-around;
   }
 
-  .projetos ul {
+  .botoes-principais {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .contato {
