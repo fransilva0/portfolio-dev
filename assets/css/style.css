@@ -92,14 +92,16 @@ body {
 .botao-principal {
   margin: 2rem;
   padding: 1rem 2rem;
-  border: 2px solid var(--cor-3);
   border-radius: 0.5rem;
-  color: var(--cor-3);
+  color: var(--white);
+  background-color: var(--cor-3);
+  font-weight: bold;
 }
 
 .botao-principal:hover {
-  color: var(--white);
-  background-color: var(--cor-3);
+  border: 2px solid var(--cor-3);
+  background: transparent;
+  color: var(--cor-3);
 }
 
 /* ESTILIZAÇÃO DOS TÍTULOS DE TODAS AS SEÇÕES DA PÁGINA */
@@ -214,11 +216,12 @@ body {
 .icone {
   font-size: 4rem;
   padding-right: 2rem;
-  color: var(--cor-2);
+  color: var(--cor-3);
+  transition: all 0.4s ease;
 }
 
 .icone:hover {
-  color: var(--cor-3);
+  transform: translateY(-15px);
 }
 
 .redes-sociais {
