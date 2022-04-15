@@ -108,7 +108,7 @@ body {
 .titulo-secao {
   text-align: center;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .titulo-secao span {
@@ -117,11 +117,11 @@ body {
 }
 
 /* SEÇÃO DE FORMAÇÃO EDUCACIONAL */
-.formacao, .skills, .contato {
+.formacao, .skills, .contato, .container-projetos {
   padding: 2rem;
 }
 
-.formacao ul li, .skills ul li {
+.formacao ul li, .skills ul li, .container-projetos ul li {
   padding: 2rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   margin: 1rem;
@@ -165,7 +165,7 @@ body {
   text-align: center;
 }
 
-.titulo-skill {
+.titulo-skill, .titulo-formacao {
   color: var(--cor-3);
   border-bottom: 1px solid var(--cor-3);
   padding-bottom: 0.5rem;
@@ -231,13 +231,13 @@ body {
 /* FOOTER DA PÁGINA */
 .rodape {
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 2.5rem 2.5rem 2.5rem ;
 }
 
 /* BOTÃO DE MUDAR DE TEMA E CLASS DO TEMA ESCURO */
-.modo-claroEscuro {
-  font-size: 2rem;
-  padding-right: 2rem;
+.icone-cabecalho{
+  font-size: 1.5rem;
+  padding-right: 1rem;
   color: var(--white);
   cursor: pointer;
 }

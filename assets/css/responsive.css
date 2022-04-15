@@ -14,12 +14,12 @@
   .sobre-mim-texto {
     margin: 0.5rem 10rem;
   }
-
+  
   .formacao, .skills, .contato, .projetos ul {
     display: flex;
     justify-content: space-around;
   }
-
+  
   .botoes-principais {
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@
   .contato {
     align-items: center;
   }
-
+  
   .form {
     width: 30rem;
   }
