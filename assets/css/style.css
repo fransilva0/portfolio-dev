@@ -97,12 +97,11 @@ body {
   color: var(--white);
   background-color: var(--cor-3);
   font-weight: bold;
+  transition: background 0.3s;
 }
 
 .botao-principal:hover {
-  border: 2px solid var(--cor-3);
-  background: transparent;
-  color: var(--cor-3);
+  background-color: var(--cor-2);
 }
 
 /* ESTILIZAÇÃO DOS TÍTULOS DE TODAS AS SEÇÕES DA PÁGINA */
