@@ -5,6 +5,7 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
 }
 
 :root {
@@ -130,7 +131,7 @@ body {
 }
 
 /* SEÇÃO DE PROJETOS */
-.projetos {
+.projetos, .formacao {
   margin: 1rem;
 }
 
@@ -220,7 +221,7 @@ body {
 }
 
 .icone {
-  font-size: 4rem;
+  font-size: 6rem;
   padding-right: 2rem;
   color: var(--cor-3);
   transition: all 0.4s ease;
@@ -242,8 +243,8 @@ body {
 
 /* BOTÃO DE MUDAR DE TEMA E CLASS DO TEMA ESCURO */
 .icone-cabecalho{
-  font-size: 1.5rem;
-  padding-right: 1rem;
+  font-size: 4rem;
+  padding-right: 2rem;
   color: var(--white);
   cursor: pointer;
 }
