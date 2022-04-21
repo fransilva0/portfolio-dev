@@ -22,3 +22,18 @@ scrollReveal.reveal(` .titulo-secao, .contato .email-button, .rodape p `, {
 function modoClaroEscuro() {
   document.body.classList.toggle('temaEscuro')
 }
+
+/* Botão voltar para o topo*/
+const backToTopButton = document.querySelector('.back-to-top')
+
+function backToTop() {
+  if (window.scrollY >= 100) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
+  }
+}
+
+window.addEventListener('scroll', function () {
+  backToTop()
+})
