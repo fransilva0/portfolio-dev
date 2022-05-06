@@ -95,13 +95,16 @@ body {
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   color: var(--white);
-  background-color: var(--cor-3);
+  background: linear-gradient(to right, #ab6497 50%, #853a71 50%);
   font-weight: bold;
-  transition: background 0.3s;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 300ms ease-out;
+  
 }
 
 .botao-principal:hover {
-  background-color: var(--cor-2);
+  background-position: left bottom;
 }
 
 /* ESTILIZAÇÃO DOS TÍTULOS DE TODAS AS SEÇÕES DA PÁGINA */
@@ -167,8 +170,18 @@ body {
 }
 
 /* SEÇÃO DE SKILLS */
-.skills {
+.nuvem-skills {
   text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.nuvem-skills li {
+  color: var(--cor-3);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .titulo-skill, .titulo-formacao {
