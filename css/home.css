@@ -133,6 +133,10 @@ main {
   align-items: center;
 }
 
+.project {
+  margin-bottom: 2rem;
+}
+
 .certificates-infos img {
   width: 30rem;
 }
@@ -148,6 +152,7 @@ main {
   font-weight: 200;
   margin-left: 1rem;
 }
+
 
 /* .carousel-container {
     width: 100%;

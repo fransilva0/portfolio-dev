@@ -70,6 +70,10 @@
       display: grid;
       grid-template-columns: 50% 50%;
     }
+
+    .project-texts ul li {
+      font-size: 0.8rem;
+    }
     
     .skills-list {
       display: flex;
@@ -140,7 +144,7 @@
         font-size: 1rem;
     }
 
-    #about-me, .certificate {
+    #about-me, .certificate, .project {
         flex-direction: column;
         align-items: center;
     }
@@ -176,6 +180,20 @@
 
     #services ul {
         flex-direction: column;
+    }
+
+    .project img {
+      margin: 2rem;
+      width: 25rem;
+    }
+
+    .project-texts ul {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+
+    .project-texts ul li {
+      font-size: 0.8rem;
     }
 
     .skills-list {
@@ -247,12 +265,26 @@
         width: 10rem;
     }
 
-    #services ul {
+    #services ul, .project {
         flex-direction: column;
     }
 
     #contact p {
         padding: 1rem;
+    }
+
+    .project-texts ul {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+
+    .project img {
+      margin: 2rem;
+      width: 30rem;
+    }
+
+    .project-texts ul li {
+      font-size: 0.8rem;
     }
       
     .skills-list li img {
